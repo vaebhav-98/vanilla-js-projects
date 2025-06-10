@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>All Products</h1>
+      <section id="productContainer" class="products"></section>
+    </main>
+
+    <!-- Modal section -->
+    <div id="productModal" class="modal" aria-hidden="true" role="dialog">
+      <div class="modal-content" role="document">
+        <button class="close-btn">&times;</button>
+        <h3 id="modalTitle"></h3>
+        <img id="modalImage" alt="" />
+        <p id="modalDescription"></p>
+        <div class="details">
+          <p>Brand: <span id="modalBrand"></span></p>
+          <p>Rating: <span id="modalRating"></span></p>
+          <p>Price: <span id="modalPrice"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
