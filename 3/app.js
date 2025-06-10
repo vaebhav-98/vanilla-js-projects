@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const renderProducts = (products) => {
-    prodBody.innerHTML = ''; // Clear previous rows
+    prodBody.innerHTML = ''; 
 
     products.forEach(product => {
       const row = getTableRow(product);
